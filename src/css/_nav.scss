@@ -3,31 +3,29 @@
   visibility: hidden;
 }
 
-.nav__sm {
+.nav {
   background: #fff;
   width: 100%;
   height: 10vh;
 }
 
 .logo,
-.nav__sm-btn {
-  margin: 2rem;
-  color: black;
+.nav--sm__btn {
+  margin: $margin;
+  color: $color--text;
   z-index: 1;
+  position: absolute;
 }
 
 .logo {
-  position: absolute;
   top: 0;
   left: 0;
 }
 
-.nav__sm-btn {
-  position: absolute;
+.nav--sm__btn {
   top: 0;
   right: 0;
   z-index: 99;
-  color: black;
   cursor: pointer;
 
   &:hover {
@@ -35,31 +33,31 @@
   }
 }
 
-.nav__btn-line {
+.nav--btn__line {
   display: block;
   height: 3px;
   width: 30px;
   margin: 7px auto;
   transition: all 0.5s ease;
-  background: black;
+  background: $color--text;
 }
 
 .active .top {
   transform: translateY(10px) rotateZ(45deg);
-  background: black;
+  background: $color--text;
 }
 
 .active .middle {
   width: 0;
-  background: black;
+  background: $color--text;
 }
 
 .active .bottom {
   transform: translateY(-10px) rotateZ(-45deg);
-  background: black;
+  background: $color--text;
 }
 
-.nav__overlay {
+.nav--overlay {
   position: fixed;
   top: 0;
   height: 100vh;
@@ -73,7 +71,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.nav__overlay-show {
+.nav--overlay__show {
   // transform: translateY(-100%);
   transform: translate(0);
 }
@@ -82,7 +80,7 @@
   overflow: hidden;
 }
 
-.nav__overlay-links {
+.nav--overlay__links {
   display: flex;
   flex-direction: column;
   height: 60vh;
@@ -96,7 +94,7 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: $color--text;
     font-weight: 700;
     font-size: 2rem;
 

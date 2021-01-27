@@ -9,5 +9,9 @@
 }
 
 body {
-  background-color: black;
+  background-color: $color--background;
+}
+
+.showcase {
+  height: 100vh;
 }
