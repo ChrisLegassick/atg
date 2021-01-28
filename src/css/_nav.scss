@@ -10,7 +10,7 @@
 }
 
 .logo,
-.nav--sm__btn {
+.nav-btn {
   margin: $margin;
   color: $color--text;
   z-index: 1;
@@ -22,7 +22,7 @@
   left: 0;
 }
 
-.nav--sm__btn {
+.nav-btn {
   top: 0;
   right: 0;
   z-index: 99;
@@ -33,7 +33,7 @@
   }
 }
 
-.nav--btn__line {
+.btn-line {
   display: block;
   height: 3px;
   width: 30px;
@@ -57,7 +57,7 @@
   background: $color--text;
 }
 
-.nav--overlay {
+.nav-overlay {
   position: fixed;
   top: 0;
   height: 100vh;
@@ -71,16 +71,16 @@
   transition: all 0.5s ease-in-out;
 }
 
-.nav--overlay__show {
+.nav-overlay_show {
   // transform: translateY(-100%);
   transform: translate(0);
 }
 
-.noscroll-overlay {
+.nav-overlay_noscroll {
   overflow: hidden;
 }
 
-.nav--overlay__links {
+.overlay-links {
   display: flex;
   flex-direction: column;
   height: 60vh;

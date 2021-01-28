@@ -1,19 +1,19 @@
 const navToggle = () => {
   const navBtn = document.getElementById('navBtn');
   const navOverlay = document.getElementById('navOverlay');
-  const navItems = document.querySelectorAll('.nav--overlay__item');
+  const navItems = document.querySelectorAll('.overlay-item');
 
   navBtn.addEventListener('click', () => {
     navBtn.classList.toggle('active');
-    navOverlay.classList.toggle('nav--overlay__show');
-    document.body.classList.toggle('noscroll-overlay');
+    navOverlay.classList.toggle('nav-overlay_show');
+    document.body.classList.toggle('nav-overlay_noscroll');
   });
 
   navItems.forEach(item =>
     item.addEventListener('click', () => {
-      navOverlay.classList.toggle('nav--overlay__show');
+      navOverlay.classList.toggle('nav-overlay_show');
       navBtn.classList.toggle('active');
-      document.body.classList.toggle('noscroll-overlay');
+      document.body.classList.toggle('nav-overlay_noscroll');
     })
   );
 };
