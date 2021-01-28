@@ -12,7 +12,7 @@
 .logo,
 .nav-btn {
   margin: $margin;
-  color: $color--text;
+  color: $color-text;
   z-index: 1;
   position: absolute;
 }
@@ -39,22 +39,22 @@
   width: 30px;
   margin: 7px auto;
   transition: all 0.5s ease;
-  background: $color--text;
+  background: $color-text;
 }
 
 .active .top {
   transform: translateY(10px) rotateZ(45deg);
-  background: $color--text;
+  background: $color-text;
 }
 
 .active .middle {
   width: 0;
-  background: $color--text;
+  background: $color-text;
 }
 
 .active .bottom {
   transform: translateY(-10px) rotateZ(-45deg);
-  background: $color--text;
+  background: $color-text;
 }
 
 .nav-overlay {
@@ -94,7 +94,7 @@
 
   a {
     text-decoration: none;
-    color: $color--text;
+    color: $color-text;
     font-weight: 700;
     font-size: 2rem;
 
