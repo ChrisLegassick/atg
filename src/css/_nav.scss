@@ -1,30 +1,21 @@
-.bg-nav {
-  display: none;
-  visibility: hidden;
-}
-
 .nav {
   background: #fff;
   width: 100%;
-  height: 10vh;
+  padding: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo,
 .nav-btn {
-  margin: $marginX;
+  padding: $paddingX;
   color: $color-text;
-  z-index: 1;
-  position: absolute;
-}
-
-.logo {
-  top: 0;
-  left: 0;
 }
 
 .nav-btn {
-  top: 0;
-  right: 0;
   z-index: 99;
   cursor: pointer;
 
@@ -57,9 +48,10 @@
   background: $color-text;
 }
 
-.nav-overlay {
+.nav-links-container {
   position: fixed;
   top: 0;
+  left: 0;
   height: 100vh;
   width: 100%;
   background-color: #fff;
@@ -67,20 +59,18 @@
   display: flex;
   align-items: center;
   transform: translateY(-100%);
-  // transform: translate(0);
   transition: all 0.5s ease-in-out;
 }
 
-.nav-overlay_show {
-  // transform: translateY(-100%);
+.nav-overlay-show {
   transform: translate(0);
 }
 
-.nav-overlay_noscroll {
+.nav-overlay-noscroll {
   overflow: hidden;
 }
 
-.overlay-links {
+.nav-links {
   display: flex;
   flex-direction: column;
   height: 60vh;
