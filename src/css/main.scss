@@ -12,21 +12,40 @@ body {
   background-color: $color-background;
 }
 
-main {
-  padding: $paddingX;
+// main {
+//   padding: $paddingX;
+// }
+.showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/homepage.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
-.showcase {
+.showcase-content {
   height: 100vh;
+  text-align: center;
+  padding: $paddingX;
+  color: #fff;
 
-  h1,
+  h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+
   p {
-    grid-column: span 12;
-    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
   }
+}
 
-  .btn {
-    grid-column: span 6;
-    text-align: center;
-  }
+.cta-primary {
+  background-color: $color-brand;
+  color: #fff;
+}
+
+.cta-secondary {
+  border: 3px solid $color-brand;
+  color: #fff;
 }
