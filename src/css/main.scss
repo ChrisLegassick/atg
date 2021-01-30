@@ -24,6 +24,7 @@ ul {
 
 body {
   background-color: $color-background;
+  color: $color-text;
 }
 
 .showcase {
@@ -59,4 +60,36 @@ body {
 .cta-secondary {
   border: 3px solid $color-brand;
   color: #fff;
+}
+
+.about-section {
+  padding: $paddingX;
+  padding-top: 5rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  .card {
+    padding: 4rem;
+    margin: 3rem 0;
+    background-color: #fff;
+    text-align: center;
+
+    .card-heading {
+      padding: 1.5rem 0;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.company-logos {
+  display: flex;
+  flex-wrap: wrap;
+
+  img {
+    width: 50%;
+    height: 100%;
+  }
 }
