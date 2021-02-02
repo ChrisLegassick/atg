@@ -22,3 +22,13 @@
   border-radius: 0.5rem;
   font-weight: bold;
 }
+
+.cta-primary {
+  background-color: $color-brand;
+  color: #fff;
+}
+
+.cta-secondary {
+  border: 3px solid $color-brand;
+  color: #fff;
+}
