@@ -16,6 +16,7 @@ img {
 a {
   display: inline-block;
   text-decoration: none;
+  color: #fff;
 }
 
 ul {
@@ -124,8 +125,9 @@ body {
     text-align: center;
 
     p {
+      font-size: 1.2rem;
       font-weight: bold;
-      padding: 2rem 0 1rem;
+      padding: 2rem 1.5rem 1rem;
     }
 
     .btn {
@@ -159,14 +161,19 @@ body {
   }
 
   .footer-links {
-    padding-bottom: 2rem;
+    &:nth-of-type(1) {
+      padding-bottom: 2rem;
+    }
+    &:nth-of-type(2) {
+      padding-bottom: 2rem;
+    }
 
     li {
       margin: 1rem 0;
     }
   }
 
-  a {
-    color: #fff;
+  .footer-social-links {
+    padding-bottom: 5rem;
   }
 }

@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/main.scss" />
     <title>ATG</title>
   </head>
@@ -20,12 +26,20 @@
         </div>
         <div class="nav-links-container hidden" id="navOverlay">
           <ul class="nav-links">
-            <li class="nav-item">
-              <a href="#projects">Projects</a>
+            <li class="nav-item nav-toggle">
+              <a href="#">About Us</a>
             </li>
-            <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item">
-              <a href="#contact-me">Contact</a>
+            <li class="nav-item nav-item-dropdown" id="nav-dropdown">
+              <a href="#">Services <i class="fas fa-angle-down"></i></a>
+              <ul class="dropdown-contents hidden">
+                <li><a href="">Renewable Energy</a></li>
+                <li><a href="">Heating</a></li>
+                <li><a href="">Plumbing</a></li>
+                <li><a href="">Boiler Finance</a></li>
+              </ul>
+            </li>
+            <li class="nav-item nav-toggle">
+              <a href="#">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -166,30 +180,35 @@
                 <a href="">Contact</a>
               </li>
             </ul>
-            <p class="footer-heading">Links</p>
+            <p class="footer-heading">Services</p>
             <ul class="footer-links">
               <li>
-                <a href="">Home</a>
+                <a href="">Renewable Energy</a>
               </li>
               <li>
-                <a href="">About</a>
+                <a href="">Heating</a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="">Plumbing</a>
+              </li>
+              <li>
+                <a href="">Boiler Finance</a>
               </li>
             </ul>
-            <p class="footer-heading">Links</p>
+            <p class="footer-heading">Contact Us</p>
             <ul class="footer-links">
               <li>
-                <a href="">Home</a>
+                <a href="">07123456789</a>
               </li>
               <li>
-                <a href="">About</a>
-              </li>
-              <li>
-                <a href="">Contact</a>
+                <a href="">email@test.com</a>
               </li>
             </ul>
+            <div class="footer-social-links">
+              <a href="">X</a>
+              <a href="">X</a>
+              <a href="">X</a>
+            </div>
           </div>
         </div>
       </footer>
