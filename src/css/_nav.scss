@@ -52,7 +52,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   width: 100%;
   background-color: $color-accent_dark;
   z-index: 98;
