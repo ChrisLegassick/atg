@@ -1,14 +1,13 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  align-content: center;
-}
-
 .flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: min(85%, 50rem);
 }
 
 .hidden {
