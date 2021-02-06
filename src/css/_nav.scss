@@ -1,12 +1,12 @@
 .nav {
   background: #fff;
   padding: 1rem 0;
+  width: 100%;
 }
 
 .navbar-container {
-  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 .logo,
@@ -71,12 +71,9 @@
 }
 
 .nav-links {
-  display: flex;
-  flex-direction: column;
   height: 70vh;
   width: 100%;
   justify-content: space-around;
-  align-items: center;
   text-align: center;
 
   a {
@@ -86,18 +83,6 @@
     &:hover {
       text-decoration: underline;
       text-decoration-color: blue;
-    }
-  }
-
-  .nav-item-dropdown {
-    i {
-      font-size: 1.5rem;
-    }
-
-    .dropdown-contents {
-      a {
-        font-size: 1.5rem;
-      }
     }
   }
 }
