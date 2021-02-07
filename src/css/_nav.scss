@@ -4,6 +4,11 @@
   width: 100%;
 }
 
+.lg-nav {
+  display: none;
+  visibility: hidden;
+}
+
 .navbar-container {
   flex-direction: row;
   justify-content: space-between;
