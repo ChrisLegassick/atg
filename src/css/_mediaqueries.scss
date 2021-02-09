@@ -49,4 +49,39 @@
     animation: scaleY 300ms ease-in-out forwards;
     transform-origin: top center;
   }
+
+  .showcase-content {
+    .showcase-btns {
+      .cta-secondary {
+        display: inline-block;
+        visibility: visible;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .about-section {
+    .card-container {
+      .card {
+        padding: 5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .about-section {
+    .card-container {
+      flex-direction: row;
+
+      .card {
+        padding: 4rem 2rem;
+
+        &:nth-child(-n + 2) {
+          margin-right: 2rem;
+        }
+      }
+    }
+  }
 }

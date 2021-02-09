@@ -28,6 +28,7 @@ ul {
 body {
   background-color: $color-background;
   color: $color-text;
+  line-height: 1.5;
 }
 
 .showcase {
@@ -46,11 +47,17 @@ body {
   h1 {
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
+    line-height: 1.2;
   }
 
   p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
+  }
+
+  .cta-secondary {
+    display: none;
+    visibility: hidden;
   }
 }
 
@@ -60,11 +67,12 @@ body {
   h2 {
     border-bottom: 3px solid $color-brand;
     width: fit-content;
+    margin-bottom: 4rem;
   }
 
   .card {
     padding: 4rem 2rem;
-    margin: 3rem 0;
+    margin-bottom: 4rem;
     background-color: #fff;
     text-align: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
@@ -115,7 +123,7 @@ body {
   }
 
   .service-container {
-    margin: 3rem 0 5rem;
+    margin: 4rem 0 5rem;
 
     img {
       box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
@@ -151,6 +159,7 @@ body {
       font-size: 1.2rem;
       font-weight: bold;
       padding: 2rem 1.5rem 1.5rem;
+      line-height: 1.2;
     }
 
     .btn {
