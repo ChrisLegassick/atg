@@ -70,9 +70,15 @@ body {
     margin-bottom: 4rem;
   }
 
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    grid-gap: 4rem 2rem;
+  }
+
   .card {
     padding: 4rem 2rem;
-    margin-bottom: 4rem;
+    // margin-bottom: 4rem;
     background-color: #fff;
     text-align: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
@@ -90,6 +96,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 4rem;
 
   img {
     &:nth-child(1) {
