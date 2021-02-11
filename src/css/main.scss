@@ -32,11 +32,23 @@ body {
 }
 
 .showcase {
+  position: relative;
+  height: 100vh;
+}
+
+.showcase::after {
+  content: '';
+  height: 100vh;
+  width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/images/homepage.jpg);
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .showcase-content {
