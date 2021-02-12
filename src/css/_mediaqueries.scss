@@ -103,28 +103,42 @@
       grid-template-columns: repeat(12, 1fr);
       width: min(85%, 80rem);
       margin: 0 auto;
-      height: 90vh;
+      // height: 90vh;
 
       &::after {
-        background: url(/images/homepage.jpg);
+        // background: url(/images/homepage.jpg);
+        // background: url(/images/test.jpg);
+        background: url(/images/test2.jpg);
+        // background: url(/images/renew-home.jpg);
         background-size: cover;
-        background-position: center;
+        background-position: right;
         background-repeat: no-repeat;
-        height: 70vh;
-        grid-column: 7 / 13;
+        grid-column: 6 / 13;
         left: 50%;
-        top: 50%;
+        top: 60%;
         transform: translate(-50%, -50%);
       }
 
       .showcase-content {
-        grid-column: 1 / 7;
+        grid-column: 1 / 9;
         color: black;
         text-align: left;
-        align-items: flex-start;
+        // align-items: flex-start;
+        align-content: center;
         margin: 0;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+        h1 {
+          grid-column: 1 / 13;
+        }
+
+        p {
+          grid-column: 1 / 9;
+        }
 
         .showcase-btns {
+          grid-column: 1 / 9;
           margin-top: 1rem;
 
           .cta-primary {
@@ -135,8 +149,10 @@
     }
 
     .about-section {
+      padding-top: 10rem;
+
       &::before {
-        height: 22rem;
+        height: 28rem;
       }
       .card-container {
         .card {
@@ -150,6 +166,8 @@
     }
 
     .services-section {
+      padding-top: 10rem;
+
       .service-container {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -172,6 +190,10 @@
           padding: 4rem 4rem 4rem 10rem;
           background-color: $color-accent-light;
           height: fit-content;
+
+          .service-heading {
+            padding: 0;
+          }
         }
 
         &:nth-of-type(even) {

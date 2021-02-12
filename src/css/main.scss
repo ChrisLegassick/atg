@@ -55,17 +55,17 @@ a {
 
 .showcase {
   position: relative;
-  height: 100vh;
+  height: 90vh;
 }
 
 .showcase::after {
   content: '';
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/homepage.jpg);
+    url(/images/test2.jpg);
   background-size: cover;
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
