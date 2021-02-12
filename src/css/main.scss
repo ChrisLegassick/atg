@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 @import 'variables';
 @import 'utilities';
 @import 'nav';
@@ -30,6 +32,25 @@ body {
   background-color: $color-background;
   color: $color-text;
   line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+// Responsive texts below - max width needs to = container max width
+
+h1 {
+  font-size: calc(32px + (80 - 32) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h2 {
+  font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+
+p {
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+a {
+  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .showcase {
@@ -59,12 +80,12 @@ body {
 
   h1 {
     margin-bottom: 1.5rem;
-    font-size: 2.5rem;
+    // font-size: 2.5rem;
     line-height: 1.1;
   }
 
   p {
-    font-size: 1.1rem;
+    // font-size: 1.1rem;
     margin-bottom: 2rem;
   }
 
@@ -107,12 +128,12 @@ body {
     // margin-bottom: 4rem;
     background-color: #fff;
     text-align: center;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
 
     .card-heading {
       padding: 1.5rem 0;
       font-weight: bold;
-      font-size: 1.2rem;
+      // font-size: 1.2rem;
     }
   }
 }
@@ -166,7 +187,7 @@ body {
 
   .service-heading {
     font-weight: bold;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
     padding-top: 1.5rem;
   }
 
@@ -174,9 +195,9 @@ body {
     padding: 1rem 0 1.5rem;
   }
 
-  .btn {
-    font-size: 0.8rem;
-  }
+  // .btn {
+  //   // font-size: 0.8rem;
+  // }
 }
 
 .footer {
@@ -190,14 +211,14 @@ body {
     text-align: center;
 
     p {
-      font-size: 1.2rem;
+      // font-size: 1.2rem;
       font-weight: bold;
       padding: 2rem 1.5rem 1.5rem;
       line-height: 1.2;
     }
 
     .btn {
-      font-size: 0.8rem;
+      // font-size: 0.8rem;
       margin-bottom: 2rem;
     }
   }
@@ -221,7 +242,7 @@ body {
   }
 
   .footer-heading {
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
     font-weight: bold;
   }
 
@@ -233,7 +254,7 @@ body {
 
   .footer-social-links {
     padding-bottom: 5rem;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
 
     a:nth-child(-n + 2) {
       margin-right: 1rem;

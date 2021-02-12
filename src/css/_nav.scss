@@ -65,6 +65,23 @@
   align-items: center;
   transform: translateY(-100%);
   transition: all 0.5s ease-in-out;
+
+  .nav-links {
+    height: 70vh;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+
+    a {
+      font-weight: bold;
+      font-size: 1.5rem;
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: blue;
+      }
+    }
+  }
 }
 
 .nav-overlay-show {
@@ -73,21 +90,4 @@
 
 .nav-overlay-noscroll {
   overflow: hidden;
-}
-
-.nav-links {
-  height: 70vh;
-  width: 100%;
-  justify-content: space-around;
-  text-align: center;
-
-  a {
-    font-weight: 700;
-    font-size: 2rem;
-
-    &:hover {
-      text-decoration: underline;
-      text-decoration-color: blue;
-    }
-  }
 }
