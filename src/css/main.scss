@@ -38,19 +38,19 @@ body {
 // Responsive texts below - max width needs to = container max width
 
 h1 {
-  font-size: calc(32px + (80 - 32) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(2rem + (80 - 32) * ((100vw - 300px) / (1600 - 300)));
 }
 
 h2 {
-  font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(1.5rem + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
 }
 
 p {
-  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(1rem + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 a {
-  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(0.875rem + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .showcase {
@@ -62,7 +62,7 @@ a {
   content: '';
   height: 90vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/test2.jpg);
   background-size: cover;
   background-position: center;

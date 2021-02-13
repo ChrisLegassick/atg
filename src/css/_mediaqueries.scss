@@ -42,7 +42,7 @@
       }
 
       .nav-cta {
-        padding: 0.4rem 1rem;
+        padding: 0.4em 1em;
         border-radius: 0.5rem;
         font-weight: bold;
         background-color: $color-brand;
@@ -59,6 +59,7 @@
       position: absolute;
       top: 2rem;
       background-color: #fff;
+      z-index: 2;
 
       li {
         margin: 1rem 0;
