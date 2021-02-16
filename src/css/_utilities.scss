@@ -31,3 +31,10 @@
 .cta-secondary {
   border: 3px solid $color-brand;
 }
+
+.page-heading {
+  border-bottom: 3px solid $color-brand;
+  width: fit-content;
+  line-height: 1;
+  margin-top: 2rem;
+}
