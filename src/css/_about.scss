@@ -1,6 +1,4 @@
 .about-showcase-content {
-  padding: 2rem 0;
-
   h1 {
     padding-bottom: 1rem;
   }
@@ -8,8 +6,9 @@
 
 .image-grid {
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(12, 1fr);
-  grid-gap: 0.5rem;
+  grid-template: repeat(3, 100px) / repeat(12, 1fr);
+  grid-gap: 0.8rem;
+  padding: 2rem 0 3rem;
 
   img:nth-of-type(1) {
     grid-area: 1 / 1 / 2 / 8;
@@ -29,5 +28,19 @@
 
   img:nth-of-type(5) {
     grid-area: 3 / 6 / 4 / 13;
+  }
+}
+
+.about-info {
+  margin-bottom: 3rem;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+.about-benefits {
+  h2 {
+    margin-bottom: 1rem;
   }
 }
