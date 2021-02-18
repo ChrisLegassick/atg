@@ -33,19 +33,16 @@
 
 .about-info {
   margin-bottom: 3rem;
+}
 
+.about-benefits,
+.about-info {
   h2 {
     margin-bottom: 1rem;
   }
-}
 
-.about-benefits {
-  h2 {
-    margin-bottom: 1rem;
+  .flex-img {
+    display: none;
+    visibility: hidden;
   }
-}
-
-.flex-img {
-  display: none;
-  visibility: hidden;
 }

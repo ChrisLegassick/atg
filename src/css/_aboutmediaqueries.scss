@@ -45,14 +45,17 @@
     flex-direction: row;
   }
 
-  .flex-info {
-    flex: 3;
-  }
+  .about-info,
+  .about-benefits {
+    .flex-info {
+      flex: 3;
+    }
 
-  .flex-img {
-    flex: 2;
-    display: block;
-    visibility: visible;
+    .flex-img {
+      flex: 2;
+      display: block;
+      visibility: visible;
+    }
   }
 }
 
