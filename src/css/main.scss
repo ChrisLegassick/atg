@@ -4,11 +4,11 @@
 @import 'utilities';
 @import 'nav';
 @import 'animations';
-@import 'mediaqueries';
+@import 'mediaqueries/mainpage';
 @import 'about';
-@import 'aboutmediaqueries';
+@import 'mediaqueries/aboutpage';
 @import 'services';
-@import 'servicesmediaqueries';
+@import 'mediaqueries/servicespage';
 
 * {
   box-sizing: border-box;
