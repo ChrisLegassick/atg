@@ -1,0 +1,40 @@
+.flex-container_contact {
+  align-items: flex-start;
+}
+
+.contact-socials a {
+  color: black;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8em 0.5em;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type='submit'] {
+  width: 50%;
+}
+
+.footer_contact {
+  .footer-container {
+    .footer-container-content {
+      margin-top: 6rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@media (min-width: 1080px) {
+  .flex-container_contact {
+    flex-direction: row;
+  }
+
+  .contact-information {
+    flex: 1.2;
+    margin-right: 3rem;
+
+    h1 {
+      font-size: calc(2rem + (40 - 32) * ((100vw - 300px) / (1600 - 300)));
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .contact-form {
+    flex: 1;
+    margin-top: -1rem;
+  }
+}
